@@ -1,0 +1,39 @@
+.adicionar2{
+    margin: 0 auto;
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adicionar2 form{
+    background-color: darkblue;
+    padding: 50px;
+    border-radius: 20px;
+    color: white;
+    max-width: 500px;
+}
+
+.botao{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.adicionar2 input, .adicionar2 textarea{
+    margin-bottom: 20px;
+    width: 300px;
+    max-width: 300px;
+}
+
+.adicionar2 button{
+    padding: 5px;
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin: 0 auto;
+}
+
+.adicionar2 label{
+    font-size: 15px;
+}

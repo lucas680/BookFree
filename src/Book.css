@@ -1,0 +1,47 @@
+.book2{
+    margin-top: 70px;
+}
+
+.book2-img{
+    padding: 20px 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book2-img h1{
+    padding: 0 50px;
+}
+
+.book2-img button{
+    margin-top: 50px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: darkviolet;
+    color: white;
+    cursor: pointer;
+}
+
+
+.book2-desc{
+    padding: 20px;
+    font-size: 20px;
+    background-color: rgb(18, 18, 18, 0.04);
+    height: calc(100vh - 310px);
+    box-shadow: 0 8px 12px rgb(18 18 18 / 16%) inset;
+}
+
+.book2-desc p{
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+.book2 img{
+    width: 150px;
+    height: 250px;
+}
+

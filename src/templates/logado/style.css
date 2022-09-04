@@ -1,0 +1,36 @@
+.logado{
+    margin: 0 auto;
+    min-width: 600px;
+    max-width: 70%;
+    min-height: 400px;
+    margin-top: 150px;
+}
+
+.logado div{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.logado button{
+    margin-left: 20px;
+    padding: 5px;
+    background-color: darkorange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.logado h1{
+    width: 400px;
+}
+
+.logado h2{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.logado .adicionar{
+    background-color: darkviolet;
+}

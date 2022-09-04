@@ -1,0 +1,26 @@
+.about{
+    padding-top: 15%;
+    height: 100vh;
+    text-align: center;
+}
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
+.about h1{
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.about p{
+    font-size: 25px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 20%;
+    padding-top: 5%;
+}
+
+@media (max-width: 700px){
+    .about{
+        padding-top: 30%;
+    }
+}

@@ -1,0 +1,48 @@
+.genrs{
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 50px;
+    text-align: center;
+    gap: 30px;
+  }
+
+  @media (max-width: 900px){
+    .genrs{
+      grid-template-columns: 1fr;
+    }
+  }
+
+.genrs div{
+  background-color: darkviolet;
+  width: 400px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border-radius: 30px;
+}
+
+  .genrs div img{
+    width: 400px;
+    height: 200px;
+    border-radius: 30px 30px 0 0;
+  }
+
+  .genrs h1{
+    margin-top: 30px;
+    padding-bottom: 30px;
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .genrs a{
+    text-decoration: none;
+    color: white;
+    transition: transform 300ms ease-in-out;
+  }
+
+  .genrs a:hover{
+    transform: scale(1.05);
+    z-index: 1;
+    cursor: pointer;
+  }

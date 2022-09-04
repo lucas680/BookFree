@@ -1,0 +1,30 @@
+.home{
+    padding-top: 5rem;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../img/fantasy.jpg");
+    background-position: center;
+    color: var(--color-menu);
+  }
+  
+  .home div{
+    width: 80%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.642);
+    padding: 2rem;
+    border-radius: 2rem;
+  }
+  
+  .home h1{
+      margin-bottom: 5rem;
+      font-size: 5rem;
+  }
+  
+  .home p{
+      font-size: 4rem;
+  }
